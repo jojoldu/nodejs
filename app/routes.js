@@ -2,7 +2,7 @@
  * Created by dwlee on 2015-07-24.
  */
 
-var Member = require('./models/member');
+var Member = require('./model/member');
 
 module.exports = function(app){
 

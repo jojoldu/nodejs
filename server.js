@@ -11,7 +11,7 @@ var methodOverride	= require('method-override');
 var db = require('./config/db');
 
 //server port
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8081;
 
 //parse application/json
 app.use(bodyParser.json());
